@@ -1,0 +1,25 @@
+.table-space {
+    width: 80vw;
+    margin: 4em auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 2em;
+    padding: 1em 1em;
+}
+
+td {
+    padding: 1em 0;
+}
+
+.background {
+    background-color: crimson;
+    font-size: 2em;
+}
