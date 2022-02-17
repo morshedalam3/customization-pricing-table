@@ -5,9 +5,53 @@ import img1 from '../../image/admin.jpg';
 import img2 from '../../image/maxresdefault.jpg';
 import img3 from '../../image/re.png';
 import img4 from '../../image/socks.jpg';
+import { AiOutlineArrowRight } from 'react-icons/ai';
+import './Home.css';
 
 const Home = () => {
   return (
+    <>
+    <div className="heading">
+      <Container className="heading-box">
+        <div>
+        <h1>Welcome To CpaWorkTools</h1>
+        <h4>We're Here To Fulfill Your Needs With Online Marketing Tools.</h4>
+        <p>Quick Support 100% Safe & Secure Ours Service.</p>
+        <div className="d-flex">
+          <div className="col-md-3 sm-12 linkButton">
+            <div><AiOutlineArrowRight/>
+            <Link className="links" to="/link"> social network</Link>
+            </div>
+            <div><AiOutlineArrowRight/>
+            <Link className="links" to="/link"> social network</Link>
+            </div>
+            <div><AiOutlineArrowRight/>
+            <Link className="links" to="/link"> social network</Link>
+            </div>
+            <div><AiOutlineArrowRight/>
+            <Link className="links" to="/link"> social network</Link>
+            </div>
+            
+          </div>
+          <div className="col-md-3 sm-12">
+          <div><AiOutlineArrowRight/>
+            <Link className="links" to="/link"> social network</Link>
+            </div>
+            <div><AiOutlineArrowRight/>
+            <Link className="links" to="/link"> social network</Link>
+            </div>
+            <div><AiOutlineArrowRight/>
+            <Link className="links" to="/link"> social network</Link>
+            </div>
+            <div><AiOutlineArrowRight/>
+            <Link className="links" to="/link"> social network</Link>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      </Container>
+    </div>
     <div style={{marginTop:'2em'}}>
         <Container className="d-flex">
       <div className="col-md-4"></div>
@@ -48,6 +92,7 @@ const Home = () => {
       </div>
       </Container>
     </div>
+    </>
   );
 };
 
